@@ -1,6 +1,6 @@
 {
   "name": "match-words",
-  "description": "Match the words in a string.",
+  "description": "Match the words in a string. Support for english, CJK and Cyrillic.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/match-words",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",

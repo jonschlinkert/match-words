@@ -1,6 +1,6 @@
 # match-words [![NPM version](https://badge.fury.io/js/match-words.svg)](http://badge.fury.io/js/match-words)
 
-> Match the words in a string.
+> Match the words in a string. Support for english, CJK and Cyrillic.
 
 ## Install
 
