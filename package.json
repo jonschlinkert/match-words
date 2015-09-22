@@ -1,0 +1,50 @@
+{
+  "name": "match-words",
+  "description": "Match the words in a string.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/match-words",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/match-words",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/match-words/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "word-regex": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "count",
+    "detect",
+    "exec",
+    "find",
+    "match",
+    "regex",
+    "regexp",
+    "split",
+    "word",
+    "words"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "is-whitespace",
+        "whitespace-regex",
+        "wordcount",
+        "word-regex"
+      ]
+    }
+  }
+}
