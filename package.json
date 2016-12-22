@@ -23,6 +23,7 @@
     "word-regex": "^0.1.0"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.11",
     "mocha": "*"
   },
   "keywords": [
@@ -42,9 +43,20 @@
       "list": [
         "is-whitespace",
         "whitespace-regex",
-        "wordcount",
-        "word-regex"
+        "word-regex",
+        "wordcount"
       ]
+    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
     }
   }
 }
