@@ -9,9 +9,9 @@
 
 var regex = require('word-regex');
 
-module.exports = function wordcount(str) {
+module.exports = function(str) {
   if (typeof str !== 'string') {
     throw new TypeError('expected a string');
   }
-  return str.match(regex()) || null;
+  return str.match(regex());
 };
